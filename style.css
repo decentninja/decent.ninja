@@ -7,8 +7,25 @@ html {
     color: #0c0a09;
 }
 
+body {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    margin: 4em;
+    text-align: center;
+}
+
 p {
+    margin-top: 0;
     text-align: justify;
+    margin-bottom: 8px;
 }
 
 h2 {
@@ -20,6 +37,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+article > h4 {
+    font-style: italic;
+}
+
+h4, h3 {
+    margin: 0;
+}
+
 table {
     width: 100%;
 }
@@ -28,9 +53,35 @@ a, a:visited {
     color: #113750;
 }
 
+article {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.main {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+}
+
+.main article > time {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .contact {
     background-color: #63c06e;
     padding: 0.5em;
+    -webkit-column-break-before: always;
+    break-before: column;
+}
+
+td {
+    vertical-align: top;
 }
 
 .contact td {
@@ -52,49 +103,4 @@ tr td:first-child {
 
 .contact tr td:nth-child(2) {
     padding-left: 1em;
-}
-
-body {
-    width: 920px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.main {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 50px; /* Firefox */
-    column-gap: 50px;
-}
-
-article {
-    position: relative;
-    margin-bottom: 2em;
-}
-
-h4, h3, p {
-    margin: 0;
-}
-
-.main time {
-    position: absolute;
-    right: 0;
-    font-style: italic;
-    top: 0;
-}
-
-.topofcolumn {
-    -webkit-column-break-before: always;
-    break-before: column;
-}
-
-header {
-    text-align: center;
-}
-
-footer {
-    margin: 4em;
-    text-align: center;
 }
