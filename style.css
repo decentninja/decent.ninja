@@ -3,7 +3,8 @@
 }
 
 html {
-    background-color: #FEFEFE;
+    background-color: #fffdfd;
+    color: #0c0a09;
 }
 
 p {
@@ -11,27 +12,46 @@ p {
 }
 
 h2 {
-    color: #701112;
-    border-bottom: 1px solid black;
+    color: #55114c;
+    border-bottom: 1px solid gray;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+table {
+    width: 100%;
+}
+
+a, a:visited {
+    color: #113750;
+}
+
 .contact {
-    background-color: #F4DC9C;
+    background-color: #63c06e;
     padding: 0.5em;
 }
 
-.contact tr td:first-child {
+.contact td {
+    text-align: center;
+}
+
+section:not(.contact) td {
+    padding-bottom: 1em;
+}
+
+tr td:first-child {
     text-align: right;
-    border-right: 1px solid black;
-    padding-right: 0.5em
+    padding-right: 1em;
+}
+
+.contact tr td:first-child {
+    border-right: 1px solid darkgreen;
 }
 
 .contact tr td:nth-child(2) {
-    padding-left: 0.5em;
+    padding-left: 1em;
 }
 
 body {
