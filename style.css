@@ -1,0 +1,80 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+    background-color: #FEFEFE;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    color: #701112;
+    border-bottom: 1px solid black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.contact {
+    background-color: #F4DC9C;
+    padding: 0.5em;
+}
+
+.contact tr td:first-child {
+    text-align: right;
+    border-right: 1px solid black;
+    padding-right: 0.5em
+}
+
+.contact tr td:nth-child(2) {
+    padding-left: 0.5em;
+}
+
+body {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+}
+
+article {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+h4, h3, p {
+    margin: 0;
+}
+
+.main time {
+    position: absolute;
+    right: 0;
+    font-style: italic;
+    top: 0;
+}
+
+.topofcolumn {
+    -webkit-column-break-before: always;
+    break-before: column;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    margin: 4em;
+    text-align: center;
+}
