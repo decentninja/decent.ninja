@@ -2,6 +2,7 @@ var last_slide;
 var last_link;
 
 function route(e) {
+    if (e) e.preventDefault();
     if (old_hash) old_hash;
     if (location.hash) {
         if (last_slide) {
