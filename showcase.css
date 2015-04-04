@@ -14,7 +14,7 @@
     overflow: auto;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1500px) {
     .darkpart {
         height: 500px;
     }
@@ -50,6 +50,7 @@
     .showcase > article:first-child {
         position: relative;
     }
+
 }
 
 .projects img {
@@ -72,12 +73,12 @@
 
 .projects .description {
     position: absolute;
-    width: 761px;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     display: block;
     color: #fffdfd;
     padding: 10px;
+    padding-right: 1px;
 }
 
 .projectlist .type {
