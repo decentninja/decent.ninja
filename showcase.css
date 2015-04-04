@@ -1,24 +1,38 @@
 .darkpart {
     background-image: url('footer_lodyas.png');
-    background-position-x: 12px; /* Offset to match backgorund */
+    background-position-x: 2px; /* Offset to match backgorund */
     height: 500px;
 }
 
 .projects {
     display: flex;
-    position: relative;
     margin: auto;
     width: 1080px;
 }
 
-.projects > article {
-    background-color: black;
+.projects > .showcase {
     margin: 0;
     width: 780px;
+    height: 500px;
+    position: relative;
+}
+
+.showcase > article {
+    background-color: black;
+    width: 780px;
+    position: absolute;
+    top: 0;
+    transition: all 1s;
+    height: 500px;
     height: 500px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    opacity: 0;
+}
+
+.showcase > article:target {
+    opacity: 1;
 }
 
 .projects img {
