@@ -48,3 +48,7 @@ a, a:visited {
     color: #113750;
 }
 
+a:hover {
+    background-color: #113750;
+    color: #fffdfd;
+}

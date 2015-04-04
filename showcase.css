@@ -13,7 +13,7 @@
 .projects > article {
     flex-grow: 1;
     margin: 0;
-    width: 880px;
+    width: 780px;
 }
 
 .projects img {
@@ -22,7 +22,7 @@
 }
 
 .projectlist {
-    width: 200px;
+    width: 300px;
 }
 
 .projectlist a, .projectlist a:visited, .projectlist h1 {
@@ -40,10 +40,15 @@
 
 .projects .description {
     position: absolute;
-    width: 860px;
+    width: 760px;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     display: block;
     color: #fffdfd;
     padding: 10px;
+}
+
+.projectlist .type {
+    position: absolute;
+    right: 10px;
 }
