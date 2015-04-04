@@ -1,0 +1,67 @@
+.rest {
+    background-image: url('seamless_paper_texture.png');
+    padding-top: 3em;
+}
+
+.cv {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cv article {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.cv p {
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+.cv {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+}
+
+.cv article > time {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.contact {
+    background-color: #63c06e;
+    padding: 0.5em;
+    -webkit-column-break-before: always;
+    break-before: column;
+}
+
+td {
+    vertical-align: top;
+}
+
+.contact td {
+    text-align: center;
+}
+
+section:not(.contact) td {
+    padding-bottom: 1em;
+}
+
+tr td:first-child {
+    text-align: right;
+    padding-right: 1em;
+}
+
+.contact tr td:first-child {
+    border-right: 1px solid darkgreen;
+}
+
+.contact tr td:nth-child(2) {
+    padding-left: 1em;
+}

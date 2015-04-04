@@ -1,0 +1,49 @@
+.darkpart {
+    background-image: url('footer_lodyas.png');
+    background-position-x: 12px; /* Offset to match backgorund */
+}
+
+.projects {
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 1080px;
+}
+
+.projects > article {
+    flex-grow: 1;
+    margin: 0;
+    width: 880px;
+}
+
+.projects img {
+    width: 100%;
+    display: block;
+}
+
+.projectlist {
+    width: 200px;
+}
+
+.projectlist a, .projectlist a:visited, .projectlist h1 {
+    margin: 0;
+    color: #fffdfd;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    overflow: auto;
+}
+
+.projectlist a:hover {
+    background-color: #102b40;
+}
+
+.projects .description {
+    position: absolute;
+    width: 860px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    color: #fffdfd;
+    padding: 10px;
+}
