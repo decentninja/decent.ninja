@@ -7,6 +7,7 @@
 
 * {
     font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.5s;
 }
 
 html {
@@ -14,8 +15,7 @@ html {
     color: #0c0a09;
 }
 
-
-header {
+h1 {
     text-align: center;
 }
 
@@ -45,11 +45,11 @@ table {
 }
 
 a, a:visited {
-    color: #113750;
+    color: #155583;
 }
 
 a:hover {
-    background-color: #113750;
+    background-color: #155583;
     color: #fffdfd;
 }
 
@@ -61,7 +61,6 @@ footer {
 footer > img {
     width: 8em;
     border-radius: 100%;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 footer > p {

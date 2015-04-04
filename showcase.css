@@ -22,17 +22,11 @@
     width: 780px;
     position: absolute;
     top: 0;
-    transition: all 1s;
-    height: 500px;
     height: 500px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     opacity: 0;
-}
-
-.showcase > article:target {
-    opacity: 1;
 }
 
 .projects img {
@@ -61,7 +55,7 @@
 
 .projects .description {
     position: absolute;
-    width: 760px;
+    width: 761px;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     display: block;
