@@ -52,3 +52,18 @@ a:hover {
     background-color: #113750;
     color: #fffdfd;
 }
+
+footer {
+    text-align: center;
+    padding: 3em;
+}
+
+footer > img {
+    width: 8em;
+    border-radius: 100%;
+}
+
+footer > p {
+    margin: 1em;
+    font-style: italic;
+}
