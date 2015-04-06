@@ -14,7 +14,7 @@
     overflow: auto;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1080px) {
     .darkpart {
         height: 500px;
     }

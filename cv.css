@@ -8,7 +8,7 @@
     position: relative;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1080px) {
     .cv {
         width: 920px;
         margin-left: auto;
@@ -23,7 +23,7 @@
 }
 
 /* Hack-move contacts to top for mobile. */
-@media (max-width: 1200px) {
+@media (max-width: 1080px) {
     .contact {
         position: absolute;
         top: 180px;
