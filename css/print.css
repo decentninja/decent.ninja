@@ -1,0 +1,11 @@
+.darkpart {
+	display: none;
+}
+
+footer {
+	display: none;
+}
+
+header p:after {
+	content: 'This is a pdf version of the website http://sootn.se';
+}

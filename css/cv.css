@@ -1,6 +1,8 @@
-.rest {
-    background-image: url('../img/seamless_paper_texture.png');
-    padding-top: 1px;
+@media screen {
+    .rest {
+        background-image: url('../img/seamless_paper_texture.png');
+        padding-top: 1px;
+    }
 }
 
 .cv {
@@ -23,7 +25,7 @@
 }
 
 /* Hack-move contacts to top for mobile. */
-@media (max-width: 1080px) {
+@media screen (max-width: 1080px) {
     .contact {
         position: absolute;
         top: 180px;
