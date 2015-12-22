@@ -1,3 +1,2 @@
-FROM nginx:latest
-EXPOSE 80
-COPY . /var/www
+FROM nginx:1.9.9
+COPY . /usr/share/nginx/html
