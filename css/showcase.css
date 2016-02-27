@@ -35,9 +35,6 @@
     .showcase > article {
         width: 780px;
         height: 500px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
     }
 
     .projectlist {
@@ -56,6 +53,9 @@
 .projects img {
     width: 100%;
     max-height: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .projectlist a, .projectlist a:visited, .projectlist h1 {
