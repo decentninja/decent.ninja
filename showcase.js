@@ -30,5 +30,5 @@ window.onhashchange = route;
 if (location.hash) {
     route()
 } else {
-    location.hash = "#Looptime";
+    location.hash = "#Vogon-Tennis";
 }
