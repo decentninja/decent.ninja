@@ -86,3 +86,7 @@
     position: absolute;
     right: 10px;
 }
+
+.showcase a, .showcase a:visited {
+    color: #408BC1;
+}
