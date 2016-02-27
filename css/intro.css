@@ -230,6 +230,14 @@ footer p {
     opacity: 0;
 }
 
+.projectlist a:nth-child(13) {
+    -webkit-animation: intro 2s forwards;
+    animation: intro 2s forwards;
+    -webkit-animation-delay: 3.2s;
+    animation-delay: 3.2s;
+    opacity: 0;
+}
+
 .showcase {
     -webkit-animation: intro 4s forwards;
     animation: intro 4s forwards;
