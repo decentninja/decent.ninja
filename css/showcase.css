@@ -6,8 +6,6 @@
 .showcase > article {
     background-color: black;
     position: absolute;
-    top: 0;
-    opacity: 0;
 }
 
 .projectlist {
