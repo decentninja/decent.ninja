@@ -67,3 +67,7 @@ footer > p {
     margin: 1em;
     font-style: italic;
 }
+
+.projectlist > h1 {
+    font-size: 150%;
+}
