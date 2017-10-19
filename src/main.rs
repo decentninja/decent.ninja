@@ -23,7 +23,6 @@ fn index(state: State<AppState>) -> Template {
 }
 
 // TODO: Fix javascript static thingy to something more dynamic
-// TODO: Fix fonts
 #[get("/<file..>")]
 fn files(file: PathBuf) -> Option<NamedFile> {
     NamedFile::open(Path::new("static/").join(file)).ok()
