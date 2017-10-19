@@ -22,7 +22,6 @@ fn index(state: State<AppState>) -> Template {
     Template::render("index", &state.content)
 }
 
-// TODO: Fix javascript static thingy to something more dynamic
 #[get("/<file..>")]
 fn files(file: PathBuf) -> Option<NamedFile> {
     NamedFile::open(Path::new("static/").join(file)).ok()

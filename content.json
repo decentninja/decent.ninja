@@ -41,10 +41,12 @@
             "from": "Konglig Datasektionen KTH",
             "time": "2016",
             "description": "I recived the Honorary Delta for my work representing and planning leisure activities for my fellow students studying computer science at KTH.",
-            "links": [{
-                "text": "Motivation (Swedish)",
-                "url": "https://datasektionen.se/sektionen/hedersdelta#lrunhem"
-            }]
+            "links": [
+                {
+                    "text": "Motivation (Swedish)",
+                    "url": "https://datasektionen.se/sektionen/hedersdelta#lrunhem"
+                }
+            ]
         }
     ]
 }

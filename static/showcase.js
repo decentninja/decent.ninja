@@ -27,8 +27,3 @@ function route(e) {
 var old_hash = window.onhashchange;
 window.onhashchange = route;
 
-if (location.hash) {
-    route()
-} else {
-    location.hash = "#FugamVR";
-}

@@ -46,13 +46,14 @@ struct Award {
 }
 
 #[derive(Serialize, Deserialize)]
-pub struct Content  {
+pub struct Content {
     heading: String,
     short_description: String,
     titlebar: String,
     phone_number: String,
     email: String,
     url: String,
+    default_portfolio_id: Option<String>,
     portfolio: Vec<PortfolioPiece>,
     employments: Vec<Employment>,
     educations: Vec<Education>,
@@ -63,5 +64,10 @@ pub fn read_content() -> Result<Content, serde_json::Error> {
     let mut f = File::open("content.json").expect("file not found");
     let mut content = String::new();
     f.read_to_string(&mut content).expect("something went wrong reading the file");
-    serde_json::from_str(&content)
+    let mut content: Content = serde_json::from_str(&content)?;
+    match content.default_portfolio_id {
+        Some(_) => (),
+        None => content.default_portfolio_id = Some(content.portfolio[0].id.clone()),
+    }
+    Ok(content)
 }

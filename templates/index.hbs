@@ -130,6 +130,13 @@
         <p>Thank you for your time.</p>
     </footer>
     <script src="showcase.js"></script>
+    <script> 
+        if (location.hash) {
+            route()
+        } else {
+            location.hash = "#{{default_portfolio_id}}";
+        }
+    </script>
 </div>
 </body>
 </html>
