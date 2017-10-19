@@ -1,0 +1,50 @@
+{
+    "heading": "Andreas Linn - Decent Ninja",
+    "titlebar": "Stockholm-based game and interaction designer",
+    "short_description": "Hi! I love to design, implement and iterate on experiences and interactions. Most of my work is in game design and programming. If you find that I am a good fit for your company, please do not hesitate to contact me.",
+    "phone_number": "+46701126707",
+    "email": "anlinn@kth.se",
+    "url": "decent.ninja",
+    "portfolio": [
+        {
+            "id": "FugamVR",
+            "description": "A fast paced, mood focused, aerial dogfighting game in VR. You are tasked to fly swiftly, in low altitude terrain, during the night. The first thing you will spot from the enemy is the blasting light from their jet engines. Inspired by the FPS game mode Oddball, the one who holds the payload the longest wins. You will, in a flock of other fighters, hunt down the payload holder, shoot him down, take the payload, shake the flock off your tail!",
+            "title": "Fugam VR",
+            "isa": "VR Game",
+            "image": "fugam.png",
+            "links": [
+                {
+                    "text": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=9Z-zNqL3Cuk"
+                }
+            ]
+        }
+    ],
+    "employments": [
+        {
+            "company": "EA Dice",
+            "role": "Gameplay",
+            "time": "August 2017 - Current",
+            "description": "Right now I work at Dice in Stockholm."
+        }
+    ],
+    "educations": [
+        {
+            "title": "Master of Science (Civilingenjör) Human-Computer Interaction",
+            "location": "KTH Royal Swedish Institute of Technology",
+            "time": "2015-2017"
+        }
+    ],
+    "awards": [
+        {
+            "name": "Datasektionens Hedersdelta",
+            "from": "Konglig Datasektionen KTH",
+            "time": "2016",
+            "description": "I recived the Honorary Delta for my work representing and planning leisure activities for my fellow students studying computer science at KTH.",
+            "links": [{
+                "text": "Motivation (Swedish)",
+                "url": "https://datasektionen.se/sektionen/hedersdelta#lrunhem"
+            }]
+        }
+    ]
+}

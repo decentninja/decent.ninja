@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>Andreas Linn - Decent Ninja</title>
+    <meta name="description" content="{{titlebar}}">
+    <link rel="author" href="https://plus.google.com/u/0/106020932411191139389">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cv.css">
+    <link rel="stylesheet" href="css/showcase.css" media="screen">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30623163-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<div class="darkpart">
+    <div class="projects">
+        <section class="showcase">
+            {{#each portfolio}}
+                <article id="{{id}}">
+                    <img src="projectimages/{{image}}">
+                    <div class="description">
+                        <h3>{{title}} - {{isa}}</h3>
+                        <p>{{{description}}}</p>
+                        <p>
+                            {{#each links}}
+                                <a target="_blank" href="{{url}}">{{text}}</a>
+                            {{/each}}
+                        </p>
+                    </div>
+                </article>
+            {{/each}}
+        </section>
+        <div class="projectlist">
+            <h1>PORTFOLIO</h1>
+            {{#each portfolio}}
+                <a href="#{{id}}">{{title}} <span class="type">{{isa}}</span></a>
+            {{/each}}
+        </div>
+    </div>
+</div>
+<div class="rest">
+    <div class="cv">
+        <header>
+            <h1>{{heading}}</h1>
+            <p>{{{short_description}}}<p>
+        </header>
+        <section class="employments">
+            <h2>Employments</h2>
+            {{#each employments}}
+                <article>
+                    <h3>{{company}}</h3>
+                    <h4>{{role}}</h4>
+                    <time>{{time}}</time>
+                    <p>{{description}}</p>
+                </article>
+            {{/each}}
+        </section>
+        <section>
+            <h2>Education</h2>
+            <article>
+                <table>
+                    {{#each education}}
+                        <tr>
+                            <td>
+                                <time>{{time}}</time>
+                            </td>
+                            <td>
+                                <h4>{{title}}</h4>
+                                <span>{{location}}</span>
+                            </td>
+                        </tr>
+                    {{/each}}
+                </table>
+            </article>
+        </section>
+        <section class="contact">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td>Andreas Ulfson Linn</td>
+                </tr>
+                <tr>
+                    <td>Adress</td>
+                    <td>Kungshamra 3 lgh 1205 170 70 Solna Sweden</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><a href="tel: {{phone_number}}">{{phone_number}}</a></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><a href="mailto: {{email}}">{{email}}</a></td>
+                </tr>
+                <tr>
+                    <td>Website</td>
+                    <td><a href="http://{{url}}">{{url}}</a></td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Awards</h2>
+            {{#each awards}}
+                <article>
+                    <h3>{{name}}</h3>
+                    <h4>{{from}}</h4>
+                    <time>{{time}}</time>
+                    <p>{{{description}}}</p>
+                    {{#each links}}
+                        <a target="_blank" href="{{url}}">{{text}}</a>
+                    {{/each}}
+                </article>
+            {{/each}}
+        </section>
+    </div>
+    <footer>
+        <img src="img/me.jpg">
+        <p>Thank you for your time.</p>
+    </footer>
+    <script src="showcase.js"></script>
+</div>
+</body>
+</html>
