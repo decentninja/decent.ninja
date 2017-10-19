@@ -1,0 +1,73 @@
+/*
+    Color scheme
+    http://colourco.de/none/%230c0a09%2C%2355114c%2C%2363c06e%2C%23113750%2C%23fffdfd
+*/
+
+/* Background pattern from subtlepatterns.com */
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.5s;
+}
+
+html {
+    background-color: #fffdfd;
+    color: #0c0a09;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    color: #55114c;
+    border-bottom: 1px solid gray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+article > h4 {
+    font-style: italic;
+}
+
+h4, h3 {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+}
+
+a, a:visited {
+    color: #155583;
+}
+
+a:hover {
+    background-color: #155583;
+    color: #fffdfd;
+}
+
+footer {
+    text-align: center;
+    padding: 3em;
+}
+
+footer > img {
+    width: 8em;
+    border-radius: 100%;
+}
+
+footer > p {
+    margin: 1em;
+    font-style: italic;
+}
+
+.projectlist > h1 {
+    font-size: 150%;
+}

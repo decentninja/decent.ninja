@@ -4,6 +4,7 @@
 extern crate rocket;
 extern crate rocket_contrib;
 use rocket_contrib::Template;
+use rocket::response::NamedFile;
 
 extern crate serde;
 #[macro_use]
@@ -12,6 +13,7 @@ extern crate serde_json;
 
 use std::fs::File;
 use std::io::prelude::*;
+use std::path::{Path, PathBuf};
 
 #[derive(Serialize, Deserialize)]
 struct Link {
@@ -69,6 +71,7 @@ struct Content  {
 
 #[get("/")]
 fn index() -> Template {
+    // TODO: Move parsing to another file and call from main.
     let mut f = File::open("content.json").expect("file not found");
     let mut content = String::new();
     f.read_to_string(&mut content).expect("something went wrong reading the file");
@@ -76,9 +79,14 @@ fn index() -> Template {
     Template::render("index", &content)
 }
 
+#[get("/<file..>")]
+fn files(file: PathBuf) -> Option<NamedFile> {
+    NamedFile::open(Path::new("static/").join(file)).ok()
+}
+
 fn main() {
     rocket::ignite()
-        .mount("/", routes![index])
+        .mount("/", routes![index, files])
         .attach(Template::fairing())
         .launch();
 }
