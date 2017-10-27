@@ -18,6 +18,151 @@
                     "url": "https://www.youtube.com/watch?v=9Z-zNqL3Cuk"
                 }
             ]
+        },
+        {
+            "id": "ViRobot",
+            "description": "To experiment with VR outside of games, we created an Industrial Robot simulation and programming environment for the Vive. My contribution was the interaction programming, robot rigg, and robot texture.",
+            "title": "ViRobot",
+            "isa": "VR Simulation",
+            "image": "virobot.png",
+            "links": [
+                {
+                    "text": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=UReq4xZUmSc"
+                }
+            ]
+        },
+        {
+            "id": "YouAreGod",
+            "description": "You are God is my second VR experience, it was build as a group project in an advanced graphics course. It features destructible buildings, smoke particle effects, a PBR asset (Physically Based Rendering), and ragdolls among many other graphical achievements. My main task in this project was to lead and organize the work, design and implement the VR interaction, teach Unity and Git to the group members, create, model and texture the PBR Vive controllers. We got a chance to demo You are God on Comic Con Stockholm which was an experience in and of itself, seeing players from all ages dive into our experience, new and interesting interactions.",
+            "title": "You are God",
+            "isa": "VR Game",
+            "image": "youaregod.png",
+            "links": [
+                {
+                    "text": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=cSsDeK2jvkI"
+                }
+            ]
+        },
+        {
+            "id": "Spaceception",
+            "description": "Spaceception is a room scale VR strategy game where you take control of an armada of ships and fight aliens. My focus of this experience was to learn the ropes of VR design and do something that took full advantage of what VR brings, great depth perception and, in the case of the HTC Vive, accurately tracked motion controllers. A video would not make it justice, but please try it out if you have an HTC Vive or other Steam VR compatible headset and controllers.",
+            "title": "Spaceception",
+            "isa": "VR Game",
+            "image": "spaceception.png",
+            "links": [
+                {
+                    "text": "Windows HTC VIVE",
+                    "url": "https://dl.dropboxusercontent.com/u/5402898/decentninja/Spaceception.zip"
+                }
+            ]
+        },
+        {
+            "id": "BlindDepth",
+            "description": "The Blind Depth is a mobile submarine game where all feedback is auditory; your task is to drive the underwater vehicle through a invisible path. Me and Mattias Lönnerberg created the game for a study of human hearing perception in a sound interaction course. My main takeaways of the projects is an immense respect for the utility of sound to convey complex information such as position, movement, and state.",
+            "title": "Blind Depth",
+            "isa": "Audio Game",
+            "image": "blinddepth.png",
+            "links": [
+                {
+                    "text": "Video",
+                    "url": "https://drive.google.com/file/d/0B9PnWwKn5Hf2ZXJYWl85eDRjZHM/view"
+                }
+            ]
+        },
+        {
+            "id": "AirGolf",
+            "description": "AirGolf is a game I designed and programmed to be able to show a complete experience created by me. It is a 3D physics game with a mix of golf and air hockey. With the low friction dynamics of air hockey and interesting physics puzzles. I created the first version in Unreal Engine but later ported it to Unity. All design, assets, 3D models, code, animations, and shaders are written by me.",
+            "title": "AirGolf",
+            "isa": "Physics Game",
+            "image": "airgolf.png",
+            "links": [
+                { "text": "Windows", "url": "demos/AirGolf_Windows.zip" },
+                { "text": "Linux", "url": "demos/AirGolf_linux.zip" },
+                { "text": "Mac OSX", "url": "demos/Airgolf_mac.zip" }
+            ]
+        },
+        {
+            "id": "Looptime",
+            "description": "Looptime is a prototype 3D multiplayer shooter for the web. It features free-form jumps in time, grandfather paradoxes, and other similar temporal shenanigans. The project has fantastic algorithms but ran into something of a visualization problem, it is easy to get lost with all the time jumps. Built together with my friend Viktor Palmkvist.",
+            "title": "Looptime",
+            "isa": "Temporal Game Engine",
+            "image": "looptime.png",
+            "links": [
+                { "text": "Github", "url": "https://github.com/decentninja/Looptime" }
+            ]
+        },
+        {
+            "id": "Nanoacre",
+            "description": "Nanoacre is a fast multiplayer browser strategy game I created together with Simon Lindholm and Viktor Palmkvist. Nanoacre is a polished experience sporting perfect pathfinding, exciting fog of war, excellent latency compensation and matchmaking. It was well received by our friends and has sparked yearly tournaments at the lan party Dreamhack. I designed the game elements of the game, wrote a particle system, created the \"art\" assets and took part in implementing the complex latency compensation system. You will need a second player",
+            "title": "Nanoacre",
+            "isa": "Multiplayer RTS Game",
+            "image": "nanoacre.png",
+            "links": [
+                { "text": "Website", "url": "http://nanoacre.decent.ninja" }
+            ]
+        },
+        {
+            "id": "StuffOverview",
+            "description": "I felt that the RTS Planetary Annihilation from Uber Entertainment was missing an overview of all units in your army, so I created a mod addon in the top left corner of the screen that displays just that. The mod was well received by the community have been downloaded and used by over 400 players. You can find Stuff Overview in the PAMM (PA Mod Manager).",
+            "title": "Stuff Overview",
+            "isa": "Game UI Mod",
+            "image": "stuffoverview.png",
+            "links": [
+                { "text": "Github", "url": "https://github.com/decentninja/PA-Mod-Stuff-Overview" }
+            ]
+        },
+        {
+            "id": "Djulkalendern",
+            "description": "Djulkalendern is the student Computer Science Chapter's annual countdown to Christmas. Every day a new computer challenge is presented. With tasks ranging from cryptography, Unix, programming, security, and databases. In 2015 I led the creation of the competition and put together a great team who helped me develop and judge the contest. I took it upon myself to design the majority of the challenges and constructed a fully functioning text-based multi-user dungeon that was featured in multiple challenges. The biggest reward from this project was the laughs and activity during lunch every day when over 200 students waited with anticipation for the next challenge and then the complete silence ones it was released.",
+            "title": "Djulkalendern",
+            "isa": "CTF Competition",
+            "image": "djulkalendern.png",
+            "links": [
+                { "text": "Website (depending on time of year)", "url": "http://djul.datasektionen.se" }
+            ]
+        },
+        {
+            "id": "Vogon-Tennis",
+            "description": "During a weekend at Kings Stockholm office I, together with an excellent team, created a game called Vogon Tennis. The game is mighty fun and creates great moments of excitement when the ball swing around the suns gravity field, or goes into slow motion and one of the player just barely reaches the ball. At the game jam it won the only prize to be won, the public vote. It is made in Unity.",
+            "title": "Vogon Tennis",
+            "isa": "Game Jam Game",
+            "image": "vogontennis.png",
+            "links": [
+                { "text": "YouTube", "url": "https://www.youtube.com/watch?v=P3daAMm9GJA" },
+                { "text": "Online", "url": "http://emilmeiton.com/VogonTennis/index.html" },
+                { "text": "Github", "url": "https://github.com/decentninja/Vogon-Tennis" }
+            ]
+        },
+        {
+            "id": "Chamaterion",
+            "description": "At Dreamhack Stockholms Game Jam 2015 we, a big team of 6, created a cute game called Chamaterion. In Chamaterion, you control an impressive chameleon who has the power to transform himself into different kinds of materials helping him run the course. Even if it is buggy and unfinished, it puts a smile on players faces, and we learned a great lot about project management.",
+            "title": "Chamaterion",
+            "isa": "Game Jam Game",
+            "image": "chamaterion.png",
+            "links": []
+        },
+        {
+            "id": "Gitspace",
+            "description": "In a visualization course at KTH, I together with seven other classmates constructed a real-time display of the code collaboration tool Git. Git is a tool that otherwise lives in the programmers terminal windows and are unapproachable by nondevelopers. We hope that our visualization GitSpace can give a glimpse of insight into the programming workflow for uninitiated. Gitspace won a Cawards for technical excellence in 2016. My work where mostly centered around the visual client written in Unity3D.",
+            "title": "Gitspace",
+            "isa": "Ambient Visualiation",
+            "image": "gitspace.jpg",
+            "links": [
+                { "text": "Website", "url": "https://decentninja.github.io/gitspace_website/" },
+                { "text": "Cawards", "url": "http://www.cawards.se/" }
+            ]
+        },
+        {
+            "id": "HungryTwins",
+            "description": "Hungry Twins is an Ipad game built in 12 hours at a game jam by me and my friends Emil Meiton and Johan Widegren. In this game, you try to feed two twins frantically by spinning the table to put food in front of them. You have to use the centripetal effect to place the food in the correct spot but still keep it on the table. The theme of the game jam was \"duality\", and it was arranged by Rovio and Swedish Game Awards at VIC KTH. Our game won the first price.",
+            "title": "HungryTwins",
+            "isa": "Game Jam Ipad Game",
+            "image": "hungrytwins.jpg",
+            "links": [
+                { "text": "Youtube", "url": "https://www.youtube.com/watch?v=AAAgQW_z9ko" }
+            ]
         }
     ],
     "employments": [
@@ -26,6 +171,36 @@
             "role": "Gameplay",
             "time": "August 2017 - Current",
             "description": "Right now I work at Dice in Stockholm."
+        },
+        {
+            "company": "Tobii",
+            "role": "Master Thesis Student",
+            "time": "Spring 2017",
+            "description": "At Tobii, I finished my education by completing my master's thesis with the title: Gaze Teleportation in Virtual Reality. I used Tobii's high precision eye trackers to teleport inside virtual reality without pointing with motion controllers."
+        },
+        {
+            "company": "Rovio Sweden",
+            "role": "Trainee",
+            "time": "Summer 2016",
+            "description": "At Rovio I got to experience both an exciting pre-production environment, with ideas sprawling about design and art but also the beginning of production, where content creation and testing was on everyone's mind. My tasks included implementing UI elements and designing haptic feedback for a new IP on mobile in Unity. I also got a good view into other teams such as the Angry Birds 2 team and their post production process."
+        },
+        {
+            "company": "Avaitec",
+            "role": "Part-Time",
+            "time": "2011 - Present",
+            "description": "Avaitec is our family company where I do small tasks from time to time such as script automation, discuss technical solutions, logo design and once a shareholder VR showcase for Yotta Communications."
+        },
+        {
+            "company": "NetLight Consulting",
+            "role": "Student Brand Manager",
+            "time": "2015",
+            "description": "As a part of the Talent Search team, I hosted events like hackatons, talks and mingle for students and colleagues to socialise. Representing and presenting how consulting works at Netlight."
+        },
+        {
+            "company": "Fyndiq, Mblox, 5Monkeys",
+            "role": "Summer jobs",
+            "time": "Summers 2012 - 2015",
+            "description": "In the summers during my studies I filled my time off school with extra jobs to fund my interest in travel and gaming. Most of my time was spent programming but I also got oppertunities to do interaction design, automated testing and documentation."
         }
     ],
     "educations": [
@@ -33,6 +208,21 @@
             "title": "Master of Science (Civilingenjör) Human-Computer Interaction",
             "location": "KTH Royal Swedish Institute of Technology",
             "time": "2015-2017"
+        },
+        {
+            "title": "Bachelor in Computer Science",
+            "location": "KTH Royal Swedish Institute of Technology",
+            "time": "2012-2015"
+        },
+        {
+            "title": "4 Weeks American English",
+            "location": "Rennert New York",
+            "time": "Summer of 2012"
+        },
+        {
+            "title": "Studentexamen",
+            "location": "IT Gymnasiet Sundbyberg",
+            "time": "2009-2012"
         }
     ],
     "awards": [
@@ -47,6 +237,64 @@
                     "url": "https://datasektionen.se/sektionen/hedersdelta#lrunhem"
                 }
             ]
+        },
+        {
+            "name": "Rovio SGA Game Jam First Price",
+            "from": "Rovio and Swedish Game Awards",
+            "time": "2016",
+            "description": "Hungry Twins is an Ipad game built in 12 hours at a game jam by me and my friends Emil Meiton and Johan Widegren. In this game, you try to feed two twins frantically by spinning the table in order to put food in front of them. You have to use the centripetal effect to place the food in the correct spot but still keep it on the table. The theme of the game jam was \"duality\", and it was arranged by Rovio and Swedish Game Awards at VIC KTH. Our game won the first price.",
+            "links": [
+                {
+                    "text": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=AAAgQW_z9ko"
+                }
+            ]
+        },
+        {
+            "name": "King Game Jam Public Vote",
+            "from": "King and Game Jam Stockholm",
+            "time": "2015",
+            "description": "During a weekend at Kings Stockholm office I, together with an excellent team created a game called Vogon Tennis. The game won the only price to be won, the public vote. It is made in Unity.",
+            "links": [
+                { "text": "YouTube", "url": "https://www.youtube.com/watch?v=P3daAMm9GJA" },
+                { "text": "Online", "url": "http://emilmeiton.com/VogonTennis/index.html" },
+                { "text": "Github", "url": "https://github.com/decentninja/Vogon-Tennis" }
+            ]
+        },
+        {
+            "name": "Cawards 2016 Technical Excellence",
+            "from": "Visualiseringscenter C",
+            "time": "2016",
+            "description": "In a visualization course at KTH, I, together with seven other classmates constructed a real-time display of the code collaboration tool Git. Git is a tool that otherwise lives in the programmer's terminal window and is unapproachable by nondevelopers. We hope that our visualization GitSpace can give a glimpse of insight into the programming workflow for uninitiated. Gitspace won a Cawards for technical excellence in 2016. Gitspace is written in Unity3D, Python and JavaScript.",
+            "links": [
+                {
+                    "text": "Website",
+                    "url": "https://decentninja.github.io/gitspace_website/"
+                },
+                {
+                    "text": "Cawards",
+                    "url": "http://www.cawards.se/"
+                }
+            ]
+        },
+        {
+            "name": "#1 Escape from /dev/null",
+            "from": "SUP46",
+            "time": "2013",
+            "description": "The task was to Query a REST API, automate a team of characters in a fantasy world, analyse the surroundings and fight 20 other teams. Our team SDA0 comprised of I, Daniil Pintjuk and Viktor Palmkvist managed to complete most challenges, accumulated the most points and won the competition.",
+            "links": [
+                {
+                    "text": "Escape from /dev/null",
+                    "url": "http://escapedevnull.com/"
+                }
+            ]
+        },
+        {
+            "name": "#1 Spotify AI Hockey Challange",
+            "from": "Spotify Street team",
+            "time": "2012",
+            "description": "The task was to write a Java AI-hockey-team in 5 hours to later compete that evening against 24 other teams in simulated hockey matches. Our team BreakForWhile comprised of me, Per Classon and Simon Lindholm won the competition.",
+            "links": []
         }
     ]
 }
