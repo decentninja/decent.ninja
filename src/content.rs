@@ -5,6 +5,7 @@ extern crate serde_json;
 use std::fs::File;
 use std::io::prelude::*;
 
+
 #[derive(Serialize, Deserialize)]
 struct Link {
     url: String,
@@ -60,10 +61,17 @@ pub struct Content {
     awards: Vec<Award>,
 }
 
-pub fn read_content() -> Result<Content, serde_json::Error> {
-    let mut f = File::open("content.json").expect("file not found");
+error_chain! {
+    foreign_links {
+        ParseError(serde_json::Error);
+        IOError(::std::io::Error);
+    }
+}
+
+pub fn read_content(path: &str) -> Result<Content> {
+    let mut f = File::open(path)?;
     let mut content = String::new();
-    f.read_to_string(&mut content).expect("something went wrong reading the file");
+    f.read_to_string(&mut content)?;
     let mut content: Content = serde_json::from_str(&content)?;
     match content.default_portfolio_id {
         Some(_) => (),

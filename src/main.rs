@@ -11,6 +11,9 @@ use rocket::State;
 extern crate serde_derive;
 use std::path::{Path, PathBuf};
 
+#[macro_use]
+extern crate error_chain;
+
 mod content;
 
 struct AppState {
@@ -28,7 +31,7 @@ fn files(file: PathBuf) -> Option<NamedFile> {
 }
 
 fn main() {
-    let content = content::read_content().expect("Could not parse content.json");
+    let content = content::read_content("content.json").expect("Could not read content.json.");
     rocket::ignite()
         .mount("/", routes![index, files])
         .manage(AppState {
