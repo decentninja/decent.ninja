@@ -1,4 +1,4 @@
-FROM rustlang/rust:nightly
+FROM dolphm/ubuntu-latest-rust
 WORKDIR /usr/src/decentninja2
 COPY . .
 ENV ROCKET_ENV production
