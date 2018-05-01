@@ -1,4 +1,5 @@
 #![feature(plugin, decl_macro)]
+#![feature(const_atomic_bool_new)]
 #![plugin(rocket_codegen)]
 
 extern crate rocket;
