@@ -145,7 +145,7 @@
         },
         {
             "id": "Gitspace",
-            "description": "In a visualization course at KTH, I together with seven other classmates constructed a real-time display of the code collaboration tool Git. Git is a tool that otherwise lives in the programmers terminal windows and are unapproachable by nondevelopers. We hope that our visualization GitSpace can give a glimpse of insight into the programming workflow for uninitiated. Gitspace won a Cawards for technical excellence in 2016. My work where mostly centered around the visual client written in Unity3D.",
+            "description": "In a visualization course at KTH, I together with seven other classmates constructed a real-time display of the code collaboration tool Git. Git is a tool that otherwise lives in the programmers terminal windows and are unapproachable by non-developers. We hope that our visualization GitSpace can give a glimpse of insight into the programming workflow for uninitiated. Gitspace won a Cawards for technical excellence in 2016. I worked on the visual client written in Unity3D.",
             "title": "Gitspace",
             "isa": "Ambient Visualiation",
             "image": "gitspace.jpg",
@@ -182,7 +182,7 @@
             "company": "Rovio Sweden",
             "role": "Trainee",
             "time": "Summer 2016",
-            "description": "At Rovio I got to experience both an exciting pre-production environment, with ideas sprawling about design and art but also the beginning of production, where content creation and testing was on everyone's mind. My tasks included implementing UI elements and designing haptic feedback for a new IP on mobile in Unity. I also got a good view into other teams such as the Angry Birds 2 team and their post production process."
+            "description": "At Rovio, I got to experience both an exciting pre-production environment, with ideas sprawling about design and art but also the beginning of production, where content creation and testing was on everyone's mind. My tasks included implementing UI elements and designing haptic feedback for a new IP on mobile in Unity. I also got a good view into other teams such as the Angry Birds 2 team and their post-production process."
         },
         {
             "company": "Avaitec",
@@ -194,13 +194,13 @@
             "company": "NetLight Consulting",
             "role": "Student Brand Manager",
             "time": "2015",
-            "description": "As a part of the Talent Search team, I hosted events like hackatons, talks and mingle for students and colleagues to socialise. Representing and presenting how consulting works at Netlight."
+            "description": "As a part of the Talent Search team, I hosted events like hackathons, talks and mingle for students and colleagues to socialize, while presenting Netlight."
         },
         {
             "company": "Fyndiq, Mblox, 5Monkeys",
             "role": "Summer jobs",
             "time": "Summers 2012 - 2015",
-            "description": "In the summers during my studies I filled my time off school with extra jobs to fund my interest in travel and gaming. Most of my time was spent programming but I also got oppertunities to do interaction design, automated testing and documentation."
+            "description": "In the summers during my studies, I filled my time off school with extra jobs to fund my interest in travel and gaming. Most of my time was spent programming but I also got opportunities to do interaction design, automated testing, and documentation."
         }
     ],
     "educations": [
@@ -230,7 +230,7 @@
             "name": "Datasektionens Hedersdelta",
             "from": "Konglig Datasektionen KTH",
             "time": "2016",
-            "description": "I recived the Honorary Delta for my work representing and planning leisure activities for my fellow students studying computer science at KTH.",
+            "description": "I received the Honorary Delta for my work representing and planning leisure activities for my fellow students studying computer science at KTH.",
             "links": [
                 {
                     "text": "Motivation (Swedish)",
@@ -242,7 +242,7 @@
             "name": "Rovio SGA Game Jam First Price",
             "from": "Rovio and Swedish Game Awards",
             "time": "2016",
-            "description": "Hungry Twins is an Ipad game built in 12 hours at a game jam by me and my friends Emil Meiton and Johan Widegren. In this game, you try to feed two twins frantically by spinning the table in order to put food in front of them. You have to use the centripetal effect to place the food in the correct spot but still keep it on the table. The theme of the game jam was \"duality\", and it was arranged by Rovio and Swedish Game Awards at VIC KTH. Our game won the first price.",
+            "description": "Hungry Twins is an Ipad game built in 12 hours at a game jam by me and my friends Emil Meiton and Johan Widegren. In this game, you try to feed two twins frantically by spinning the table to put food in front of them. You have to use the centripetal effect to place the food in the correct spot but still keep it on the table. The theme of the game jam was \"duality\", and Rovio and Swedish Game Awards arranged it at VIC KTH. Our game won the first price.",
             "links": [
                 {
                     "text": "Youtube",
@@ -265,7 +265,7 @@
             "name": "Cawards 2016 Technical Excellence",
             "from": "Visualiseringscenter C",
             "time": "2016",
-            "description": "In a visualization course at KTH, I, together with seven other classmates constructed a real-time display of the code collaboration tool Git. Git is a tool that otherwise lives in the programmer's terminal window and is unapproachable by nondevelopers. We hope that our visualization GitSpace can give a glimpse of insight into the programming workflow for uninitiated. Gitspace won a Cawards for technical excellence in 2016. Gitspace is written in Unity3D, Python and JavaScript.",
+            "description": "In a visualization course at KTH, I, together with seven other classmates constructed a real-time display of the code collaboration tool Git. Git is a tool that otherwise lives in the programmer's terminal window and is unapproachable by nondevelopers. We hope that our visualization GitSpace can give a glimpse of insight into the programming workflow for uninitiated. Gitspace won a Cawards for technical excellence in 2016. Gitspace is written in Unity3D, Python, and JavaScript.",
             "links": [
                 {
                     "text": "Website",
@@ -281,7 +281,7 @@
             "name": "#1 Escape from /dev/null",
             "from": "SUP46",
             "time": "2013",
-            "description": "The task was to Query a REST API, automate a team of characters in a fantasy world, analyse the surroundings and fight 20 other teams. Our team SDA0 comprised of I, Daniil Pintjuk and Viktor Palmkvist managed to complete most challenges, accumulated the most points and won the competition.",
+            "description": "The task was to Query a REST API, automate a team of characters in a fantasy world, analyze the surroundings and fight 20 other teams. Our team SDA0 comprised of I, Daniil Pintjuk and Viktor Palmkvist managed to complete most challenges, accumulated the most points and won the competition.",
             "links": [
                 {
                     "text": "Escape from /dev/null",
