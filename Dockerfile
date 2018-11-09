@@ -1,6 +1,8 @@
-FROM dolphm/ubuntu-latest-rust-nightly
-WORKDIR /usr/src/decentninja2
-COPY . .
+FROM shepmaster/rust-nightly
+WORKDIR /rust/decentninja2
+ADD . .
 ENV ROCKET_ENV production
-RUN ~/.cargo/bin/cargo install
+EXPOSE 80
+RUN rustc --version
+RUN cargo install
 CMD ["decentninja2"]
