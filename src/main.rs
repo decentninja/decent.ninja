@@ -1,5 +1,4 @@
 #![feature(plugin, decl_macro)]
-#![plugin(rocket_codegen)]
 
 extern crate rocket;
 extern crate rocket_contrib;
