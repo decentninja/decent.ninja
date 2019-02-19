@@ -1,8 +1,10 @@
-#![feature(plugin, decl_macro)]
+#![feature(plugin)]
+#![feature(proc_macro_hygiene, decl_macro)]
+#![feature(custom_attribute)]
 
-extern crate rocket;
+#[macro_use] extern crate rocket;
 extern crate rocket_contrib;
-use rocket_contrib::Template;
+use rocket_contrib::templates::Template;
 use rocket::response::NamedFile;
 use rocket::State;
 
