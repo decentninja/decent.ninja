@@ -1,9 +1,10 @@
-FROM rust
+FROM debian:stable-slim
 WORKDIR /usr/src/decentninja2
-copy . .
-run rustup default nightly
+copy target/release/decentninja2 .
+copy static static
+copy Rocket.toml .
+copy templates templates
+copy content.json .
 ENV ROCKET_ENV production
 EXPOSE 80
-RUN rustc --version
-RUN cargo install
-CMD ["decentninja2"]
+CMD ["./decentninja2"]

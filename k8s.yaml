@@ -1,0 +1,51 @@
+apiVersion: v1
+kind: Namespace
+metadata: 
+  name: non-triqla
+  labels: 
+    name: non-triqla
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: decentninja
+  name: decentninja
+  namespace: non-triqla
+spec:
+  ports:
+  - protocol: TCP
+    port: 80
+  selector:
+    app: decentninja
+  type: LoadBalancer
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: decentninja
+  namespace: non-triqla
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: decentninja
+  template:
+    metadata:
+      labels:
+        app: decentninja
+    spec:
+      containers:
+      - image: eu.gcr.io/warm-melody-260208/decentninja
+        imagePullPolicy: IfNotPresent
+        name: decentninja
+        ports:
+        - containerPort: 80
+          protocol: TCP
+        resources: {}
+      imagePullSecrets:
+      - name: gcr-json-key
